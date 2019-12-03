@@ -1,15 +1,15 @@
 //
-//  MVVM_CTests.swift
-//  MVVM-CTests
+//  UpperIntermediateTests.swift
+//  UpperIntermediateTests
 //
 //  Created by Volodymyr Kolesnik on 12/3/19.
 //  Copyright © 2019 Volodymyr Kolesnik. All rights reserved.
 //
 
 import XCTest
-@testable import MVVM_C
+@testable import UpperIntermediate
 
-class MVVM_CTests: XCTestCase {
+class UpperIntermediateTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

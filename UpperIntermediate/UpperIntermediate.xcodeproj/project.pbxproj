@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC2E7428239927BE0058B53A /* SignInViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2E7427239927BE0058B53A /* SignInViewControllerTests.swift */; };
+		FC2E742A23992E360058B53A /* HomeViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC2E742923992E360058B53A /* HomeViewModelTests.swift */; };
 		FC950CE02396905200C9B724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950CDF2396905200C9B724 /* AppDelegate.swift */; };
 		FC950CE22396905200C9B724 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950CE12396905200C9B724 /* SceneDelegate.swift */; };
-		FC950CE42396905200C9B724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950CE32396905200C9B724 /* ViewController.swift */; };
-		FC950CE72396905200C9B724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC950CE52396905200C9B724 /* Main.storyboard */; };
 		FC950CE92396905300C9B724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC950CE82396905300C9B724 /* Assets.xcassets */; };
 		FC950CEC2396905300C9B724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC950CEA2396905300C9B724 /* LaunchScreen.storyboard */; };
-		FC950CF72396905300C9B724 /* UpperIntermediateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950CF62396905300C9B724 /* UpperIntermediateTests.swift */; };
+		FC950D032396A00A00C9B724 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D012396A00A00C9B724 /* SignInViewController.swift */; };
+		FC950D042396A00A00C9B724 /* SignInViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC950D022396A00A00C9B724 /* SignInViewController.xib */; };
+		FC950D072396A25E00C9B724 /* SignInCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D062396A25E00C9B724 /* SignInCoordinator.swift */; };
+		FC950D092396A26C00C9B724 /* SignInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D082396A26C00C9B724 /* SignInViewModel.swift */; };
+		FC950D0B2396A2D100C9B724 /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D0A2396A2D100C9B724 /* MainCoordinator.swift */; };
+		FC950D0F2396AA4B00C9B724 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D0D2396AA4B00C9B724 /* HomeViewController.swift */; };
+		FC950D102396AA4B00C9B724 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC950D0E2396AA4B00C9B724 /* HomeViewController.xib */; };
+		FC950D122396AA5900C9B724 /* HomeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D112396AA5900C9B724 /* HomeCoordinator.swift */; };
+		FC950D142396AA6D00C9B724 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D132396AA6D00C9B724 /* HomeViewModel.swift */; };
+		FC950D162398EDC000C9B724 /* HomeCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D152398EDC000C9B724 /* HomeCellModel.swift */; };
+		FC950D182398EE3A00C9B724 /* RandomStringsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D172398EE3A00C9B724 /* RandomStringsDataService.swift */; };
+		FC950D1A2398FE5A00C9B724 /* SignInCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D192398FE5A00C9B724 /* SignInCoordinatorTests.swift */; };
+		FC950D1C2398FFE600C9B724 /* HomeCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D1B2398FFE600C9B724 /* HomeCoordinatorTests.swift */; };
+		FC950D1F2399191A00C9B724 /* SignInViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D1E2399191A00C9B724 /* SignInViewModelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +40,30 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC2E7427239927BE0058B53A /* SignInViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewControllerTests.swift; sourceTree = "<group>"; };
+		FC2E742923992E360058B53A /* HomeViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModelTests.swift; sourceTree = "<group>"; };
 		FC950CDC2396905200C9B724 /* UpperIntermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpperIntermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC950CDF2396905200C9B724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC950CE12396905200C9B724 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC950CE32396905200C9B724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC950CE62396905200C9B724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FC950CE82396905300C9B724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC950CEB2396905300C9B724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC950CED2396905300C9B724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FC950CF22396905300C9B724 /* UpperIntermediateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpperIntermediateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC950CF62396905300C9B724 /* UpperIntermediateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperIntermediateTests.swift; sourceTree = "<group>"; };
 		FC950CF82396905300C9B724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC950D012396A00A00C9B724 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		FC950D022396A00A00C9B724 /* SignInViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SignInViewController.xib; sourceTree = "<group>"; };
+		FC950D062396A25E00C9B724 /* SignInCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInCoordinator.swift; sourceTree = "<group>"; };
+		FC950D082396A26C00C9B724 /* SignInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModel.swift; sourceTree = "<group>"; };
+		FC950D0A2396A2D100C9B724 /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		FC950D0D2396AA4B00C9B724 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FC950D0E2396AA4B00C9B724 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		FC950D112396AA5900C9B724 /* HomeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinator.swift; sourceTree = "<group>"; };
+		FC950D132396AA6D00C9B724 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		FC950D152398EDC000C9B724 /* HomeCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellModel.swift; sourceTree = "<group>"; };
+		FC950D172398EE3A00C9B724 /* RandomStringsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringsDataService.swift; sourceTree = "<group>"; };
+		FC950D192398FE5A00C9B724 /* SignInCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInCoordinatorTests.swift; sourceTree = "<group>"; };
+		FC950D1B2398FFE600C9B724 /* HomeCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorTests.swift; sourceTree = "<group>"; };
+		FC950D1E2399191A00C9B724 /* SignInViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewModelTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +84,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FC2E742B23992EF10058B53A /* Homve */ = {
+			isa = PBXGroup;
+			children = (
+				FC950D1B2398FFE600C9B724 /* HomeCoordinatorTests.swift */,
+				FC2E742923992E360058B53A /* HomeViewModelTests.swift */,
+			);
+			path = Homve;
+			sourceTree = "<group>";
+		};
 		FC950CD32396905200C9B724 = {
 			isa = PBXGroup;
 			children = (
@@ -81,10 +116,12 @@
 			children = (
 				FC950CDF2396905200C9B724 /* AppDelegate.swift */,
 				FC950CE12396905200C9B724 /* SceneDelegate.swift */,
-				FC950CE32396905200C9B724 /* ViewController.swift */,
-				FC950CE52396905200C9B724 /* Main.storyboard */,
 				FC950CE82396905300C9B724 /* Assets.xcassets */,
 				FC950CEA2396905300C9B724 /* LaunchScreen.storyboard */,
+				FC950D0A2396A2D100C9B724 /* MainCoordinator.swift */,
+				FC950D052396A23D00C9B724 /* SignIn */,
+				FC950D0C2396AA3000C9B724 /* Home */,
+				FC950D172398EE3A00C9B724 /* RandomStringsDataService.swift */,
 				FC950CED2396905300C9B724 /* Info.plist */,
 			);
 			path = UpperIntermediate;
@@ -93,10 +130,44 @@
 		FC950CF52396905300C9B724 /* UpperIntermediateTests */ = {
 			isa = PBXGroup;
 			children = (
-				FC950CF62396905300C9B724 /* UpperIntermediateTests.swift */,
+				FC950D1D2399190400C9B724 /* SignIn */,
+				FC2E742B23992EF10058B53A /* Homve */,
 				FC950CF82396905300C9B724 /* Info.plist */,
 			);
 			path = UpperIntermediateTests;
+			sourceTree = "<group>";
+		};
+		FC950D052396A23D00C9B724 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				FC950D062396A25E00C9B724 /* SignInCoordinator.swift */,
+				FC950D012396A00A00C9B724 /* SignInViewController.swift */,
+				FC950D022396A00A00C9B724 /* SignInViewController.xib */,
+				FC950D082396A26C00C9B724 /* SignInViewModel.swift */,
+			);
+			path = SignIn;
+			sourceTree = "<group>";
+		};
+		FC950D0C2396AA3000C9B724 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				FC950D112396AA5900C9B724 /* HomeCoordinator.swift */,
+				FC950D0D2396AA4B00C9B724 /* HomeViewController.swift */,
+				FC950D0E2396AA4B00C9B724 /* HomeViewController.xib */,
+				FC950D132396AA6D00C9B724 /* HomeViewModel.swift */,
+				FC950D152398EDC000C9B724 /* HomeCellModel.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		FC950D1D2399190400C9B724 /* SignIn */ = {
+			isa = PBXGroup;
+			children = (
+				FC950D192398FE5A00C9B724 /* SignInCoordinatorTests.swift */,
+				FC950D1E2399191A00C9B724 /* SignInViewModelTests.swift */,
+				FC2E7427239927BE0058B53A /* SignInViewControllerTests.swift */,
+			);
+			path = SignIn;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,9 +251,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC950D042396A00A00C9B724 /* SignInViewController.xib in Resources */,
 				FC950CEC2396905300C9B724 /* LaunchScreen.storyboard in Resources */,
 				FC950CE92396905300C9B724 /* Assets.xcassets in Resources */,
-				FC950CE72396905200C9B724 /* Main.storyboard in Resources */,
+				FC950D102396AA4B00C9B724 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,9 +272,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC950CE42396905200C9B724 /* ViewController.swift in Sources */,
+				FC950D032396A00A00C9B724 /* SignInViewController.swift in Sources */,
+				FC950D142396AA6D00C9B724 /* HomeViewModel.swift in Sources */,
+				FC950D0B2396A2D100C9B724 /* MainCoordinator.swift in Sources */,
+				FC950D182398EE3A00C9B724 /* RandomStringsDataService.swift in Sources */,
 				FC950CE02396905200C9B724 /* AppDelegate.swift in Sources */,
+				FC950D162398EDC000C9B724 /* HomeCellModel.swift in Sources */,
+				FC950D072396A25E00C9B724 /* SignInCoordinator.swift in Sources */,
 				FC950CE22396905200C9B724 /* SceneDelegate.swift in Sources */,
+				FC950D122396AA5900C9B724 /* HomeCoordinator.swift in Sources */,
+				FC950D0F2396AA4B00C9B724 /* HomeViewController.swift in Sources */,
+				FC950D092396A26C00C9B724 /* SignInViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -210,7 +290,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC950CF72396905300C9B724 /* UpperIntermediateTests.swift in Sources */,
+				FC2E742A23992E360058B53A /* HomeViewModelTests.swift in Sources */,
+				FC2E7428239927BE0058B53A /* SignInViewControllerTests.swift in Sources */,
+				FC950D1F2399191A00C9B724 /* SignInViewModelTests.swift in Sources */,
+				FC950D1A2398FE5A00C9B724 /* SignInCoordinatorTests.swift in Sources */,
+				FC950D1C2398FFE600C9B724 /* HomeCoordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,14 +309,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC950CE52396905200C9B724 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FC950CE62396905200C9B724 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		FC950CEA2396905300C9B724 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

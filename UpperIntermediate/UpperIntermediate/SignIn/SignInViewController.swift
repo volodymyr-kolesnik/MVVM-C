@@ -7,14 +7,13 @@
 //
 
 
-
 import UIKit
 
 protocol SignInViewControllerDelegate: class {
     func showCredentialsError()
 }
 
-class SignInViewController: UIViewController, SignInViewControllerDelegate {
+class SignInViewController: UIViewController {
     let viewModel: SignInViewModelType
     @IBOutlet weak var loginTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
@@ -33,19 +32,19 @@ class SignInViewController: UIViewController, SignInViewControllerDelegate {
         
         loginTextField.delegate = self
         passwordTextField.delegate = self
-
     }
     
-    @IBAction func onSignIn(_ sender: UIButton) {
+    @IBAction private func onSignIn(_ sender: UIButton) {
         viewModel.signInTapped()
     }
-    
+}
+
+extension SignInViewController: SignInViewControllerDelegate {
     func showCredentialsError() {
         let alert = UIAlertController(title: "Error", message: "Incorrect login or password", preferredStyle: .alert)
         alert.addAction(UIAlertAction(title: "Ok", style: .cancel, handler: nil))
         
         self.present(alert, animated: true)
-//        alert.actions = [UIAlertAction()]
     }
 }
 

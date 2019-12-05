@@ -23,6 +23,8 @@
 		FC950D142396AA6D00C9B724 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D132396AA6D00C9B724 /* HomeViewModel.swift */; };
 		FC950D162398EDC000C9B724 /* HomeCellModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D152398EDC000C9B724 /* HomeCellModel.swift */; };
 		FC950D182398EE3A00C9B724 /* RandomStringsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D172398EE3A00C9B724 /* RandomStringsDataService.swift */; };
+		FC950D1A2398FE5A00C9B724 /* SignInCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D192398FE5A00C9B724 /* SignInCoordinatorTests.swift */; };
+		FC950D1C2398FFE600C9B724 /* HomeCoordinatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950D1B2398FFE600C9B724 /* HomeCoordinatorTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,8 @@
 		FC950D132396AA6D00C9B724 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		FC950D152398EDC000C9B724 /* HomeCellModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCellModel.swift; sourceTree = "<group>"; };
 		FC950D172398EE3A00C9B724 /* RandomStringsDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomStringsDataService.swift; sourceTree = "<group>"; };
+		FC950D192398FE5A00C9B724 /* SignInCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInCoordinatorTests.swift; sourceTree = "<group>"; };
+		FC950D1B2398FFE600C9B724 /* HomeCoordinatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCoordinatorTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +118,8 @@
 			isa = PBXGroup;
 			children = (
 				FC950CF62396905300C9B724 /* UpperIntermediateTests.swift */,
+				FC950D192398FE5A00C9B724 /* SignInCoordinatorTests.swift */,
+				FC950D1B2398FFE600C9B724 /* HomeCoordinatorTests.swift */,
 				FC950CF82396905300C9B724 /* Info.plist */,
 			);
 			path = UpperIntermediateTests;
@@ -262,7 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC950D1A2398FE5A00C9B724 /* SignInCoordinatorTests.swift in Sources */,
 				FC950CF72396905300C9B724 /* UpperIntermediateTests.swift in Sources */,
+				FC950D1C2398FFE600C9B724 /* HomeCoordinatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -29,7 +29,7 @@ class SignInViewModel: SignInViewModelType {
         let correctPassword = "123qwe"
         
         if login == correctLogin && password == correctPassword {
-          onSuccessedLogin?()
+            onSuccessedLogin?()
         } else {
             viewDelegate.showCredentialsError()
         }

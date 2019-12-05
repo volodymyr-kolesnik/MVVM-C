@@ -11,6 +11,7 @@ import UIKit
 
 protocol CoordinatorType: class {
     init(with navigationController: UINavigationController)
+    func start()
 }
 
 protocol InitialCoordinator: class {

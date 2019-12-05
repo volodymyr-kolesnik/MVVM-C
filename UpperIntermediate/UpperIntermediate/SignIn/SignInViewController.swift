@@ -34,7 +34,7 @@ class SignInViewController: UIViewController {
         passwordTextField.delegate = self
     }
     
-    @IBAction private func onSignIn(_ sender: UIButton) {
+    @IBAction func onSignIn(_ sender: UIButton) {
         viewModel.signInTapped()
     }
 }

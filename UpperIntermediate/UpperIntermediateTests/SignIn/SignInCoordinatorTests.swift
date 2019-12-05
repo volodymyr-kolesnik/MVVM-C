@@ -25,7 +25,7 @@ class SignInCoordinatorTests: XCTestCase {
         coordinator = nil
     }
 
-    func testExample() {
+    func testNavigationToSignInViewController() {
         coordinator.start()
         XCTAssertTrue(navigation.viewControllers.last is SignInViewController)
     }

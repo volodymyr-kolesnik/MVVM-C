@@ -25,7 +25,7 @@ class HomeCoordinatorTests: XCTestCase {
         coordinator = nil
     }
 
-    func testExample() {
+    func testNavigationToHomeViewController() {
         coordinator.start()
         XCTAssertTrue(navigation.viewControllers.last is HomeViewController)
     }

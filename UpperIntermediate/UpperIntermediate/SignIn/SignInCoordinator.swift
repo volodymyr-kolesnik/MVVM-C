@@ -16,10 +16,6 @@ final class SignInCoordinator: CoordinatorType {
         self.navigationController = navigationController
     }
     
-    deinit {
-        print("SignInCoordinator deinit")
-    }
-    
     func start() {
         let viewModel = SignInViewModel()
         let viewController = SignInViewController(viewModel: viewModel)

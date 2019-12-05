@@ -38,9 +38,9 @@ class HomeViewModel: HomeViewModelProtocol {
 
         randomDataService.fetch() { [weak self] strings, error in
             guard let strings = strings, error == nil else { return }
+            self?.tableData = strings.map { HomeCellModel(title: $0) }
             
-            DispatchQueue.main.async {
-                self?.tableData = strings.map { HomeCellModel(title: $0) }
+            DispatchQueue.main.async {    
                 self?.viewDelegate?.reloadTableView()
             }
         }

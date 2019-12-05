@@ -8,23 +8,48 @@
 
 import UIKit
 
+protocol HomeViewControllerDelegate: class {
+    func reloadTableView()
+}
+
 class HomeViewController: UIViewController {
 
+    @IBOutlet private var tableView: UITableView!
+    private let viewModel: HomeViewModelProtocol
+    
+    init(viewModel: HomeViewModelProtocol) {
+        self.viewModel = viewModel
+        super.init(nibName: String(describing: type(of: self)), bundle: .main)
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError()
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        tableView.dataSource = self
     }
+}
 
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+extension HomeViewController: HomeViewControllerDelegate{
+    func reloadTableView() {
+        tableView.reloadData()
     }
-    */
+}
 
+extension HomeViewController: UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return viewModel.numberOfRowsInSection
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        guard let cellModel = viewModel.getModel(forCellForRowAt: indexPath) else { return UITableViewCell() }
+        
+        let cell = UITableViewCell()
+        cell.textLabel?.text = cellModel.title
+        
+        return cell
+    }
 }

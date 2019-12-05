@@ -1,3 +1,11 @@
+//
+//  HomeViewController.swift
+//  UpperIntermediate
+//
+//  Created by Volodymyr Kolesnik on 12/3/19.
+//  Copyright © 2019 Volodymyr Kolesnik. All rights reserved.
+//
+
 import UIKit
 
 final class HomeCoordinator: CoordinatorType {
@@ -8,8 +16,11 @@ final class HomeCoordinator: CoordinatorType {
     }
     
     func start() {
-        let controller = HomeViewController()
+        let viewModel = HomeViewModel()
+        let viewController = HomeViewController(viewModel: viewModel)
         
-        navigationController.pushViewController(controller, animated: true)
+        viewModel.viewDelegate = viewController
+        
+        navigationController.pushViewController(viewController, animated: true)
     }
 }

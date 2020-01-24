@@ -14,7 +14,7 @@ class TimeEaterChildViewController: UIViewController {
     private var animationTimer: Timer!
     
     var file: String?
-    var owner: TimeEaterFlowController?
+    weak var owner: TimeEaterFlowController?
     
     override func loadView() {
         super.loadView()

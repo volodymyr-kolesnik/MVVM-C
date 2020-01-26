@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.swift
-//  UpperIntermediate
+//  CICD
 //
-//  Created by Volodymyr Kolesnik on 12/3/19.
-//  Copyright © 2019 Volodymyr Kolesnik. All rights reserved.
+//  Created by Volodymyr Kolesnik on 26.01.2020.
+//  Copyright © 2020 Volodymyr Kolesnik. All rights reserved.
 //
 
 import UIKit

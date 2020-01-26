@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FC950CE02396905200C9B724 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950CDF2396905200C9B724 /* AppDelegate.swift */; };
-		FC950CE22396905200C9B724 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950CE12396905200C9B724 /* SceneDelegate.swift */; };
-		FC950CE42396905200C9B724 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950CE32396905200C9B724 /* ViewController.swift */; };
-		FC950CE72396905200C9B724 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC950CE52396905200C9B724 /* Main.storyboard */; };
-		FC950CE92396905300C9B724 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC950CE82396905300C9B724 /* Assets.xcassets */; };
-		FC950CEC2396905300C9B724 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC950CEA2396905300C9B724 /* LaunchScreen.storyboard */; };
-		FC950CF72396905300C9B724 /* UpperIntermediateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC950CF62396905300C9B724 /* UpperIntermediateTests.swift */; };
+		FC3636B623DD9CD3006DDED2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3636B523DD9CD3006DDED2 /* AppDelegate.swift */; };
+		FC3636B823DD9CD3006DDED2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3636B723DD9CD3006DDED2 /* SceneDelegate.swift */; };
+		FC3636BA23DD9CD3006DDED2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3636B923DD9CD3006DDED2 /* ViewController.swift */; };
+		FC3636BD23DD9CD3006DDED2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3636BB23DD9CD3006DDED2 /* Main.storyboard */; };
+		FC3636BF23DD9CD6006DDED2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC3636BE23DD9CD6006DDED2 /* Assets.xcassets */; };
+		FC3636C223DD9CD6006DDED2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC3636C023DD9CD6006DDED2 /* LaunchScreen.storyboard */; };
+		FC3636CD23DD9CD6006DDED2 /* CICDTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC3636CC23DD9CD6006DDED2 /* CICDTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FC950CF32396905300C9B724 /* PBXContainerItemProxy */ = {
+		FC3636C923DD9CD6006DDED2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FC950CD42396905200C9B724 /* Project object */;
+			containerPortal = FC3636AA23DD9CD3006DDED2 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FC950CDB2396905200C9B724;
-			remoteInfo = UpperIntermediate;
+			remoteGlobalIDString = FC3636B123DD9CD3006DDED2;
+			remoteInfo = CICD;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC950CDC2396905200C9B724 /* UpperIntermediate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpperIntermediate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC950CDF2396905200C9B724 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FC950CE12396905200C9B724 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		FC950CE32396905200C9B724 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		FC950CE62396905200C9B724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FC950CE82396905300C9B724 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FC950CEB2396905300C9B724 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FC950CED2396905300C9B724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FC950CF22396905300C9B724 /* UpperIntermediateTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpperIntermediateTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC950CF62396905300C9B724 /* UpperIntermediateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpperIntermediateTests.swift; sourceTree = "<group>"; };
-		FC950CF82396905300C9B724 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3636B223DD9CD3006DDED2 /* CICD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CICD.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3636B523DD9CD3006DDED2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC3636B723DD9CD3006DDED2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FC3636B923DD9CD3006DDED2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC3636BC23DD9CD3006DDED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC3636BE23DD9CD6006DDED2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC3636C123DD9CD6006DDED2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC3636C323DD9CD6006DDED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC3636C823DD9CD6006DDED2 /* CICDTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CICDTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC3636CC23DD9CD6006DDED2 /* CICDTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CICDTests.swift; sourceTree = "<group>"; };
+		FC3636CE23DD9CD6006DDED2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FC950CD92396905200C9B724 /* Frameworks */ = {
+		FC3636AF23DD9CD3006DDED2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC950CEF2396905300C9B724 /* Frameworks */ = {
+		FC3636C523DD9CD6006DDED2 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,105 +58,105 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		FC950CD32396905200C9B724 = {
+		FC3636A923DD9CD3006DDED2 = {
 			isa = PBXGroup;
 			children = (
-				FC950CDE2396905200C9B724 /* UpperIntermediate */,
-				FC950CF52396905300C9B724 /* UpperIntermediateTests */,
-				FC950CDD2396905200C9B724 /* Products */,
+				FC3636B423DD9CD3006DDED2 /* CICD */,
+				FC3636CB23DD9CD6006DDED2 /* CICDTests */,
+				FC3636B323DD9CD3006DDED2 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FC950CDD2396905200C9B724 /* Products */ = {
+		FC3636B323DD9CD3006DDED2 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC950CDC2396905200C9B724 /* UpperIntermediate.app */,
-				FC950CF22396905300C9B724 /* UpperIntermediateTests.xctest */,
+				FC3636B223DD9CD3006DDED2 /* CICD.app */,
+				FC3636C823DD9CD6006DDED2 /* CICDTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FC950CDE2396905200C9B724 /* UpperIntermediate */ = {
+		FC3636B423DD9CD3006DDED2 /* CICD */ = {
 			isa = PBXGroup;
 			children = (
-				FC950CDF2396905200C9B724 /* AppDelegate.swift */,
-				FC950CE12396905200C9B724 /* SceneDelegate.swift */,
-				FC950CE32396905200C9B724 /* ViewController.swift */,
-				FC950CE52396905200C9B724 /* Main.storyboard */,
-				FC950CE82396905300C9B724 /* Assets.xcassets */,
-				FC950CEA2396905300C9B724 /* LaunchScreen.storyboard */,
-				FC950CED2396905300C9B724 /* Info.plist */,
+				FC3636B523DD9CD3006DDED2 /* AppDelegate.swift */,
+				FC3636B723DD9CD3006DDED2 /* SceneDelegate.swift */,
+				FC3636B923DD9CD3006DDED2 /* ViewController.swift */,
+				FC3636BB23DD9CD3006DDED2 /* Main.storyboard */,
+				FC3636BE23DD9CD6006DDED2 /* Assets.xcassets */,
+				FC3636C023DD9CD6006DDED2 /* LaunchScreen.storyboard */,
+				FC3636C323DD9CD6006DDED2 /* Info.plist */,
 			);
-			path = UpperIntermediate;
+			path = CICD;
 			sourceTree = "<group>";
 		};
-		FC950CF52396905300C9B724 /* UpperIntermediateTests */ = {
+		FC3636CB23DD9CD6006DDED2 /* CICDTests */ = {
 			isa = PBXGroup;
 			children = (
-				FC950CF62396905300C9B724 /* UpperIntermediateTests.swift */,
-				FC950CF82396905300C9B724 /* Info.plist */,
+				FC3636CC23DD9CD6006DDED2 /* CICDTests.swift */,
+				FC3636CE23DD9CD6006DDED2 /* Info.plist */,
 			);
-			path = UpperIntermediateTests;
+			path = CICDTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC950CDB2396905200C9B724 /* UpperIntermediate */ = {
+		FC3636B123DD9CD3006DDED2 /* CICD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC950CFB2396905300C9B724 /* Build configuration list for PBXNativeTarget "UpperIntermediate" */;
+			buildConfigurationList = FC3636D123DD9CD6006DDED2 /* Build configuration list for PBXNativeTarget "CICD" */;
 			buildPhases = (
-				FC950CD82396905200C9B724 /* Sources */,
-				FC950CD92396905200C9B724 /* Frameworks */,
-				FC950CDA2396905200C9B724 /* Resources */,
+				FC3636AE23DD9CD3006DDED2 /* Sources */,
+				FC3636AF23DD9CD3006DDED2 /* Frameworks */,
+				FC3636B023DD9CD3006DDED2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = UpperIntermediate;
-			productName = UpperIntermediate;
-			productReference = FC950CDC2396905200C9B724 /* UpperIntermediate.app */;
+			name = CICD;
+			productName = CICD;
+			productReference = FC3636B223DD9CD3006DDED2 /* CICD.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FC950CF12396905300C9B724 /* UpperIntermediateTests */ = {
+		FC3636C723DD9CD6006DDED2 /* CICDTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC950CFE2396905300C9B724 /* Build configuration list for PBXNativeTarget "UpperIntermediateTests" */;
+			buildConfigurationList = FC3636D423DD9CD6006DDED2 /* Build configuration list for PBXNativeTarget "CICDTests" */;
 			buildPhases = (
-				FC950CEE2396905300C9B724 /* Sources */,
-				FC950CEF2396905300C9B724 /* Frameworks */,
-				FC950CF02396905300C9B724 /* Resources */,
+				FC3636C423DD9CD6006DDED2 /* Sources */,
+				FC3636C523DD9CD6006DDED2 /* Frameworks */,
+				FC3636C623DD9CD6006DDED2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FC950CF42396905300C9B724 /* PBXTargetDependency */,
+				FC3636CA23DD9CD6006DDED2 /* PBXTargetDependency */,
 			);
-			name = UpperIntermediateTests;
-			productName = UpperIntermediateTests;
-			productReference = FC950CF22396905300C9B724 /* UpperIntermediateTests.xctest */;
+			name = CICDTests;
+			productName = CICDTests;
+			productReference = FC3636C823DD9CD6006DDED2 /* CICDTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FC950CD42396905200C9B724 /* Project object */ = {
+		FC3636AA23DD9CD3006DDED2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1120;
-				LastUpgradeCheck = 1120;
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
 				ORGANIZATIONNAME = "Volodymyr Kolesnik";
 				TargetAttributes = {
-					FC950CDB2396905200C9B724 = {
-						CreatedOnToolsVersion = 11.2.1;
+					FC3636B123DD9CD3006DDED2 = {
+						CreatedOnToolsVersion = 11.3.1;
 					};
-					FC950CF12396905300C9B724 = {
-						CreatedOnToolsVersion = 11.2.1;
-						TestTargetID = FC950CDB2396905200C9B724;
+					FC3636C723DD9CD6006DDED2 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FC3636B123DD9CD3006DDED2;
 					};
 				};
 			};
-			buildConfigurationList = FC950CD72396905200C9B724 /* Build configuration list for PBXProject "UpperIntermediate" */;
+			buildConfigurationList = FC3636AD23DD9CD3006DDED2 /* Build configuration list for PBXProject "CICD" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -164,29 +164,29 @@
 				en,
 				Base,
 			);
-			mainGroup = FC950CD32396905200C9B724;
-			productRefGroup = FC950CDD2396905200C9B724 /* Products */;
+			mainGroup = FC3636A923DD9CD3006DDED2;
+			productRefGroup = FC3636B323DD9CD3006DDED2 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC950CDB2396905200C9B724 /* UpperIntermediate */,
-				FC950CF12396905300C9B724 /* UpperIntermediateTests */,
+				FC3636B123DD9CD3006DDED2 /* CICD */,
+				FC3636C723DD9CD6006DDED2 /* CICDTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FC950CDA2396905200C9B724 /* Resources */ = {
+		FC3636B023DD9CD3006DDED2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC950CEC2396905300C9B724 /* LaunchScreen.storyboard in Resources */,
-				FC950CE92396905300C9B724 /* Assets.xcassets in Resources */,
-				FC950CE72396905200C9B724 /* Main.storyboard in Resources */,
+				FC3636C223DD9CD6006DDED2 /* LaunchScreen.storyboard in Resources */,
+				FC3636BF23DD9CD6006DDED2 /* Assets.xcassets in Resources */,
+				FC3636BD23DD9CD3006DDED2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC950CF02396905300C9B724 /* Resources */ = {
+		FC3636C623DD9CD6006DDED2 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -196,47 +196,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		FC950CD82396905200C9B724 /* Sources */ = {
+		FC3636AE23DD9CD3006DDED2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC950CE42396905200C9B724 /* ViewController.swift in Sources */,
-				FC950CE02396905200C9B724 /* AppDelegate.swift in Sources */,
-				FC950CE22396905200C9B724 /* SceneDelegate.swift in Sources */,
+				FC3636BA23DD9CD3006DDED2 /* ViewController.swift in Sources */,
+				FC3636B623DD9CD3006DDED2 /* AppDelegate.swift in Sources */,
+				FC3636B823DD9CD3006DDED2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FC950CEE2396905300C9B724 /* Sources */ = {
+		FC3636C423DD9CD6006DDED2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC950CF72396905300C9B724 /* UpperIntermediateTests.swift in Sources */,
+				FC3636CD23DD9CD6006DDED2 /* CICDTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FC950CF42396905300C9B724 /* PBXTargetDependency */ = {
+		FC3636CA23DD9CD6006DDED2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC950CDB2396905200C9B724 /* UpperIntermediate */;
-			targetProxy = FC950CF32396905300C9B724 /* PBXContainerItemProxy */;
+			target = FC3636B123DD9CD3006DDED2 /* CICD */;
+			targetProxy = FC3636C923DD9CD6006DDED2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FC950CE52396905200C9B724 /* Main.storyboard */ = {
+		FC3636BB23DD9CD3006DDED2 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC950CE62396905200C9B724 /* Base */,
+				FC3636BC23DD9CD3006DDED2 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FC950CEA2396905300C9B724 /* LaunchScreen.storyboard */ = {
+		FC3636C023DD9CD6006DDED2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FC950CEB2396905300C9B724 /* Base */,
+				FC3636C123DD9CD6006DDED2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -244,7 +244,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FC950CF92396905300C9B724 /* Debug */ = {
+		FC3636CF23DD9CD6006DDED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +304,7 @@
 			};
 			name = Debug;
 		};
-		FC950CFA2396905300C9B724 /* Release */ = {
+		FC3636D023DD9CD6006DDED2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -358,117 +358,117 @@
 			};
 			name = Release;
 		};
-		FC950CFC2396905300C9B724 /* Debug */ = {
+		FC3636D223DD9CD6006DDED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3B7V2JF57;
-				INFOPLIST_FILE = UpperIntermediate/Info.plist;
+				DEVELOPMENT_TEAM = C4X8L3S369;
+				INFOPLIST_FILE = CICD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = q.UpperIntermediate;
+				PRODUCT_BUNDLE_IDENTIFIER = q.CICD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		FC950CFD2396905300C9B724 /* Release */ = {
+		FC3636D323DD9CD6006DDED2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3B7V2JF57;
-				INFOPLIST_FILE = UpperIntermediate/Info.plist;
+				DEVELOPMENT_TEAM = C4X8L3S369;
+				INFOPLIST_FILE = CICD/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = q.UpperIntermediate;
+				PRODUCT_BUNDLE_IDENTIFIER = q.CICD;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		FC950CFF2396905300C9B724 /* Debug */ = {
+		FC3636D523DD9CD6006DDED2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3B7V2JF57;
-				INFOPLIST_FILE = UpperIntermediateTests/Info.plist;
+				DEVELOPMENT_TEAM = C4X8L3S369;
+				INFOPLIST_FILE = CICDTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = q.UpperIntermediateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = q.CICDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpperIntermediate.app/UpperIntermediate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CICD.app/CICD";
 			};
 			name = Debug;
 		};
-		FC950D002396905300C9B724 /* Release */ = {
+		FC3636D623DD9CD6006DDED2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F3B7V2JF57;
-				INFOPLIST_FILE = UpperIntermediateTests/Info.plist;
+				DEVELOPMENT_TEAM = C4X8L3S369;
+				INFOPLIST_FILE = CICDTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = q.UpperIntermediateTests;
+				PRODUCT_BUNDLE_IDENTIFIER = q.CICDTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpperIntermediate.app/UpperIntermediate";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CICD.app/CICD";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC950CD72396905200C9B724 /* Build configuration list for PBXProject "UpperIntermediate" */ = {
+		FC3636AD23DD9CD3006DDED2 /* Build configuration list for PBXProject "CICD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC950CF92396905300C9B724 /* Debug */,
-				FC950CFA2396905300C9B724 /* Release */,
+				FC3636CF23DD9CD6006DDED2 /* Debug */,
+				FC3636D023DD9CD6006DDED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC950CFB2396905300C9B724 /* Build configuration list for PBXNativeTarget "UpperIntermediate" */ = {
+		FC3636D123DD9CD6006DDED2 /* Build configuration list for PBXNativeTarget "CICD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC950CFC2396905300C9B724 /* Debug */,
-				FC950CFD2396905300C9B724 /* Release */,
+				FC3636D223DD9CD6006DDED2 /* Debug */,
+				FC3636D323DD9CD6006DDED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC950CFE2396905300C9B724 /* Build configuration list for PBXNativeTarget "UpperIntermediateTests" */ = {
+		FC3636D423DD9CD6006DDED2 /* Build configuration list for PBXNativeTarget "CICDTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FC950CFF2396905300C9B724 /* Debug */,
-				FC950D002396905300C9B724 /* Release */,
+				FC3636D523DD9CD6006DDED2 /* Debug */,
+				FC3636D623DD9CD6006DDED2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FC950CD42396905200C9B724 /* Project object */;
+	rootObject = FC3636AA23DD9CD3006DDED2 /* Project object */;
 }

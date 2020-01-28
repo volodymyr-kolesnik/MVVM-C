@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  UpperIntermediate
+//  Linting
 //
-//  Created by Volodymyr Kolesnik on 12/3/19.
-//  Copyright © 2019 Volodymyr Kolesnik. All rights reserved.
+//  Created by Volodymyr Kolesnik on 28.01.2020.
+//  Copyright © 2020 Volodymyr Kolesnik. All rights reserved.
 //
 
 import UIKit
@@ -15,6 +15,4 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
 }
-

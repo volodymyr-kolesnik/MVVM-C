@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  CICD
+//  swiftLint
 //
-//  Created by Volodymyr Kolesnik on 26.01.2020.
+//  Created by Volodymyr Kolesnik on 28.01.2020.
 //  Copyright © 2020 Volodymyr Kolesnik. All rights reserved.
 //
 
@@ -18,6 +18,9 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         // If using a storyboard, the `window` property will automatically be initialized and attached to the scene.
         // This delegate does not imply the connecting scene or session are new (see `application:configurationForConnectingSceneSession` instead).
         guard let _ = (scene as? UIWindowScene) else { return }
+        let aos = ""
+        
+        aos.description
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

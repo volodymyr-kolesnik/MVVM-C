@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  CICD
+//  swiftLint
 //
-//  Created by Volodymyr Kolesnik on 26.01.2020.
+//  Created by Volodymyr Kolesnik on 28.01.2020.
 //  Copyright © 2020 Volodymyr Kolesnik. All rights reserved.
 //
 

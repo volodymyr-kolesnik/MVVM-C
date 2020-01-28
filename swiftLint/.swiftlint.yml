@@ -1,0 +1,8 @@
+
+disabled_rules:
+  - vertical_whitespace
+
+
+line_length:
+  - 200 #warning
+  - 300 #error
